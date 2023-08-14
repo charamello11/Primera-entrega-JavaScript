@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mistica Pizza 🍕</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Bienvenido a Mistica Pizza 🍕🍕🍕</h1>
+
+    <div class="menu">
+      <h2>Menú de Pizzas</h2>
+      <select id="lista-pizzas">
+        <option value="margarita">Margarita - $300</option>
+        <option value="pepperoni">Pepperoni - $200</option>
+        <option value="hawaiana">Hawaiana - $500</option>
+      </select>
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" id="cantidad" value="1" min="1" />
+      <button id="agregar-al-carrito">Agregar al Carrito</button>
+    </div>
+
+    <div class="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="items-carrito">
+        <!-- Los elementos del carrito se agregarán aca dinámicamente -->
+      </ul>
+      <p id="total">Total: $0</p>
+      <button id="realizar-pedido">Realizar Pedido</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="index.js"></script>
-    <title>Mistica Pizza 🍕🍕🍕</title>
-</head>
-<body>
-    <h1>MISTICA PIZZA</h1>
-    
-    <script></script>
-</body>
+  </body>
 </html>

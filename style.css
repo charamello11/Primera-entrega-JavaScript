@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .menu, .carrito {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
