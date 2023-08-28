@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function obtenerFechaYHora() {
 
-  const apiUrl = 'http://worldtimeapi.org/api/ip';
+  const apiUrl = 'https://worldtimeapi.org/api/ip';
 
 
   fetch(apiUrl)
